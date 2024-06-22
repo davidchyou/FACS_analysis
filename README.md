@@ -8,7 +8,7 @@ The Perl script FAC_analysis.pl reads in a directory of FASTQ files, collected a
 
 An user can optionally provide a set of reference sequences in FASTA format. If provided, count-data will be left-joined to the reference sequence set, reference sequences that are not in the FASTQ files will have zero counts.
 
-Because in FAC experiments, sequences of interest are cloned between two restriction site, an user can provide a Perl-formatted regex expression to define subsequences where counting and reference sequence matching will be performed on. By default, counting and reference sequence matching will be based on subsequences defined by the regex ".\*GAATTC([ACGT]{50,65})CTGCAG.\*"
+Because in FAC experiments, sequences of interest are cloned between two restriction sites, only that particular bit is of interest. An user can provide a Perl-formatted regex expression to define subsequences where counting and reference sequence matching will be performed on. By default, counting and reference sequence matching will be based on subsequences defined by the regex ".\*GAATTC([ACGT]{50,65})CTGCAG.\*"
 
 Example command:
 
