@@ -1,4 +1,4 @@
-# FACS_analysis
+# Pool_count_FACS
 
 A Perl script that computes binned count of sequences of interest from directories of FASTQ sequences, generated after a FACS experiment. This script was developed as part of the project "New ways of terminating bacterial gene expression" led by A/P Christopher Brown and funded by NZ Royal Society Marsden Funds, to evaulate strengths of newly predicted transcription terminators by FACS experiments. Other team members include Dr Te-yuan Chyou, A/P Joe Wade, and Sofia Magalhães Moreira as a PhD candidate.
 
